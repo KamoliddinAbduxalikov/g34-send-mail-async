@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: g34-spring-boot-async-scheduling
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/scheduling
+    username: postgres
+    password: !
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 587
+    username: d7a01c8761c662
+    password: 9a53ffac6acd66
+    protocol: smtp
+    properties:
+      mail:
+        auth:
+          enabled: true
+          starttls:
+            enabled: true

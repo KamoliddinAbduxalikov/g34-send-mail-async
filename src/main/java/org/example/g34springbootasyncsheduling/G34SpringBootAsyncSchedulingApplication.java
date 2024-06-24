@@ -8,8 +8,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @EnableAsync
 @SpringBootApplication
-public class G34SpringBootAsyncShedulingApplication {
+public class G34SpringBootAsyncSchedulingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(G34SpringBootAsyncShedulingApplication.class, args);
+        SpringApplication.run(G34SpringBootAsyncSchedulingApplication.class, args);
     }
 }
